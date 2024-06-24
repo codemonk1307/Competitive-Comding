@@ -27,6 +27,7 @@ Constraints:
 1 <= nums[i] <= 105
 '''
 
+from typing import List
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         # Method -1
