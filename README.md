@@ -2,7 +2,7 @@
 
 Welcome to my Competitive Programming Solutions repository! This repository contains my solutions to various problems from multiple competitive programming platforms. Dive into the world of algorithms, data structures, and problem-solving techniques.
 
-![Competitive Programming]([https://yourimageurl.com/yourimage.jpg](https://c4.wallpaperflare.com/wallpaper/435/542/549/javascript-google-node-js-html-microsoft-visual-studio-hd-wallpaper-preview.jpg))
+![Competitive Programming](https://c4.wallpaperflare.com/wallpaper/435/542/549/javascript-google-node-js-html-microsoft-visual-studio-hd-wallpaper-preview.jpg)
 
 ---
 
