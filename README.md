@@ -1,12 +1,13 @@
 # 🌟 Competitive Programming Solutions 🌟
 
-Welcome to my Competitive Programming Solutions repository! This repository contains my solutions to various problems from multiple competitive programming platforms. Dive into the world of algorithms, data structures, and problem-solving techniques.
+Welcome to my Competitive Programming Solutions repository! This repository contains the optimised and traditional brute-force solutions to various problems from multiple competitive programming platforms. 
+Dive into the world of algorithms, data structures, and problem-solving techniques.
 
 ![Competitive Programming](https://c4.wallpaperflare.com/wallpaper/435/542/549/javascript-google-node-js-html-microsoft-visual-studio-hd-wallpaper-preview.jpg)
 
 ---
 
-### 🚀 Platforms Covered 🚀
+### 🚀 Competitive Coding Platforms Covered 🚀
 
 Tried to include problems from the various number of coding platforms:
 
