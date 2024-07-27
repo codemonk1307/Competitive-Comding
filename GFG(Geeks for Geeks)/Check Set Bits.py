@@ -1,7 +1,7 @@
 
 
 '''
-Problem Statement ->
+Problem Statement -> (https://www.geeksforgeeks.org/problems/check-set-bits5408/1)
 Given a number N. You have to check whether every bit in the binary representation of the given number is set or not.
 
 Example 1:
