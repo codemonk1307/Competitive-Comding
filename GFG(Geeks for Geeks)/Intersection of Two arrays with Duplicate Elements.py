@@ -30,3 +30,25 @@ Constraints:
 1 ≤ a.size(), b.size() ≤ 105
 1 ≤ a[i], b[i] ≤ 105
 '''
+
+
+class Solution:
+    def intersectionWithDuplicates(self, a, b):
+        #Make my own counter dictionary and don't 
+        #consider the duplicates situation here then 
+        #we'll always get only unique values count
+        count_a = {}
+        for element in a:
+            #only add those elements which aren't present in counter already
+            if element not in count_a:
+                count_a[element] = 1
+        #declare empty list to dump output responses
+        res = []
+        for element in b:
+            #if element from b[arr] is present in counter of a[arr] elements
+            #add it to the result list
+            if count_a.get(element, 0) > 0:
+                res.append(element)
+                count_a[element] -= 1
+        #return the final output list of intersection of elements from both arrays    
+        return res
