@@ -39,17 +39,17 @@ Constraints:
 """
 class Solution:
     def findFirstNode(self, head):
-        # Initialize slow and fast pointers
+        # Initialize slow and fast pointers to the head
         slow, fast = head, head
 
-        # Detect if a cycle exists
+        # Detect if a cycle exists in the linked list
         while fast is not None and fast.next is not None:
             slow = slow.next
             fast = fast.next.next
 
-            # If cycle is detected
+            # If cycle is detected break out of the loop
             if slow == fast:
-                # Find the start of the cycle
+                # Find the start of the cycle using the Floyd's Cycle Detection Algorithm
                 slow = head
                 while slow != fast:
                     slow = slow.next
