@@ -23,7 +23,6 @@ Constraints
 """
 
 
-
 """
 class Node:
     def __init__(self, value):
@@ -33,6 +32,18 @@ class Node:
 """
 class Solution:
     def levelOrder(self, root):
+        """
+        Performs level order traversal (breadth-first traversal) on a binary tree
+        and returns a list of lists, where each inner list contains the node values
+        at each level of the tree.
+
+        Parameters:
+        root (Node): The root node of the binary tree.
+
+        Returns:
+        List[List[int]]: A list of lists representing the level order traversal of the tree.
+        Each inner list contains the values of nodes at that level.
+        """
         #edgecase when root is - []
         if root is None: return []
         

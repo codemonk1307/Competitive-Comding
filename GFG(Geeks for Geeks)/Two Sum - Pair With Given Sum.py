@@ -25,12 +25,12 @@ Constraints:
 
 #User function Template for python3
 class Solution:
-	def twoSum(self, nums, target):
-		# code here
-		required_two_integers = {}
+    def twoSum(self, nums, target):
+        # code here
+        required_two_integers = {}
         #
         for i in range(len(nums)):
             if target - nums[i] in required_two_integers:
                 return [required_two_integers[target - nums[i]],i]
-            else:
-                required_two_integers[nums[i]] = i
+        else:
+            required_two_integers[nums[i]] = i
